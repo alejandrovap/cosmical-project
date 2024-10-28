@@ -1,0 +1,19 @@
+header{
+    background-color: #000000;
+}
+h1{
+    color: #E5E5E5;
+}
+#search{
+    background-color: #DADBF1;
+}
+#request{
+    background-color: #1A1A1A;
+    color: #AAAAA1;
+    border-color: #FFFFFF;
+}
+#sign{
+    background-color: #4B5FD5;
+    color: #EAFFFF;
+    border-color: #4B5FD5;
+}

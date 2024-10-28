@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmical</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,13 +13,13 @@
         <img src="./img/cosmical-logo.png" alt="logo" width="50">
         <h1>Cosmical | Help Center</h1>
         <form action="nothing.php" method="post">
-            <input type="button" value="Submit a request">
-            <input type="button" value="Sign in">
+            <input type="button" value="Submit a request" id="request">
+            <input type="button" value="Sign in" id="sign">
         </form>
     </header>
     <main>
         <section>
-            <article>
+            <article id="search">
                 <h2>How can we help?</h2>
                 <form action="nothing.php" method="post">
                     <input type="search" name="search" id="search" placeholder="Search">
